@@ -1,0 +1,20 @@
+# ignore everything
+/*
+
+# include generic files
+!/.gitignore
+!/LICENSE
+!/NOTICE
+!/README.md
+
+# include root directory files
+# !/placeholder
+
+# include yamcs_serial_frontend folder
+!/yamcs_serial_frontend
+
+!/images
+# exclude everything *in* images folder
+/images/*
+# re-include specifically what is desired from images folder
+!/images/contact.jpg
