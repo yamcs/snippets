@@ -46,3 +46,7 @@ Features:
 * forwards data from connected clients to each other
 
 When a stream of CCSDS telemetry is available from a TCP client only, this client and ```yamcs``` can both connect to the ```tcp-server-bridge``` and ```yamcs``` will be able to receive this data.
+
+## sdls-nos
+Configuration used for testing the SDLS implementation of Yamcs with [NOS3](https://github.com/nasa/nos3/).
+See sdls-nos/README.md for more information.
