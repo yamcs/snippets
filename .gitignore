@@ -13,6 +13,9 @@
 # include yamcs_serial_frontend folder
 !/yamcs_serial_frontend
 
+# include sdls-nos folder
+!/sdls-nos
+
 !/images
 # exclude everything *in* images folder
 /images/*
