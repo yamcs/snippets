@@ -18,3 +18,4 @@
 /images/*
 # re-include specifically what is desired from images folder
 !/images/contact.jpg
+!/ccsds-frames-cfdp

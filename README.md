@@ -46,3 +46,6 @@ Features:
 * forwards data from connected clients to each other
 
 When a stream of CCSDS telemetry is available from a TCP client only, this client and ```yamcs``` can both connect to the ```tcp-server-bridge``` and ```yamcs``` will be able to receive this data.
+
+### ccsds-frames-cfdp
+This is the same as the ccsds-frames example from yamcs but with the addition of the CFDP service. The CFDP shares the same virtual channel with the regular TCs but has lower priority.
