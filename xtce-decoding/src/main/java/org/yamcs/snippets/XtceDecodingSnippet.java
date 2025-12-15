@@ -1,4 +1,4 @@
-package org.yamcs.examples.snippets;
+package org.yamcs.snippets;
 
 import java.util.logging.LogManager;
 
