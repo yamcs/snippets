@@ -1,5 +1,5 @@
 example:
-  - type: org.yamcs.xtce.XtceLoader
+  - type: org.yamcs.mdb.XtceLoader
     args:
       # This path reference is resolved from the file system.
       # Relative paths start from your cwd
