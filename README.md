@@ -49,3 +49,9 @@ When a stream of CCSDS telemetry is available from a TCP client only, this clien
 
 ### ccsds-frames-cfdp
 This is the same as the ccsds-frames example from yamcs but with the addition of the CFDP service. The CFDP shares the same virtual channel with the regular TCs but has lower priority.
+
+### xtce-decoding
+Shows how to use Yamcs as a general-purpose library for decoding packets based on an XTCE XML definition.
+It decodes a single packet initialized in the code, and prints the result to the terminal.
+To run: $ mvn exec:java
+

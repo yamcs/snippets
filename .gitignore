@@ -19,3 +19,6 @@
 # re-include specifically what is desired from images folder
 !/images/contact.jpg
 !/ccsds-frames-cfdp
+
+# include xtce-decoding folder
+!/xtce-decoding
